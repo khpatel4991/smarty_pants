@@ -16,4 +16,14 @@ class AccountsController < ApplicationController
       end
     end
   end
+
+  def edit
+    account = Account.find(params[:id])
+    @form = Accounts::SignUpForm.from_model(account)
+  end
+
+  def update
+    debugger
+  end
+
 end

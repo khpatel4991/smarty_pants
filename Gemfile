@@ -12,7 +12,7 @@ gem "bootstrap-sass", "~> 3.3.6"
 gem "simple_form",    "~> 3.2.1"
 gem "rectify",        "~> 0.4.0"
 gem "valid_email"
-
+gem 'sqlite3'
 group :development, :test do
   gem "dotenv-rails"
   gem "byebug"
